@@ -53,10 +53,6 @@ class OOB_2
         };
         SortArray(students);
         Console.WriteLine("Danh sach sinh vien co so GPA giam dan");
-        /*foreach (Student student in students)
-        {
-        Console.WriteLine(student.ShowInfo());
-        }*/
         for(int i = 0; i < students.Length; i++)
         {
             Console.WriteLine($"Id: {i+1}, Name: {students[i].Name}, GPA: {students[i].Gpa}");
